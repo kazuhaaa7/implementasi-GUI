@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="ViewPraktikPbo\FormDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\datagridcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Form Entry Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\FormNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewPraktikPbo\praktikPbo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
