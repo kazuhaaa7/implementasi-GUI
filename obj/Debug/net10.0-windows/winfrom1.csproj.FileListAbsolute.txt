@@ -3,7 +3,6 @@ C:\Users\ADVAN\source\repos\winfrom1\winfrom1\bin\Debug\net10.0-windows\winfrom1
 C:\Users\ADVAN\source\repos\winfrom1\winfrom1\obj\Debug\net10.0-windows\winfrom1.Properties.Resources.resources
 C:\Users\ADVAN\source\repos\winfrom1\winfrom1\obj\Debug\net10.0-windows\winfrom1.ViewPraktikPbo.FormDashboard.resources
 C:\Users\ADVAN\source\repos\winfrom1\winfrom1\obj\Debug\net10.0-windows\winfrom1.View.praktikPbo.resources
-C:\Users\ADVAN\source\repos\winfrom1\winfrom1\obj\Debug\net10.0-windows\winfrom1.datagridcs.resources
 C:\Users\ADVAN\source\repos\winfrom1\winfrom1\obj\Debug\net10.0-windows\winfrom1.FormEntrData2.resources
 C:\Users\ADVAN\source\repos\winfrom1\winfrom1\obj\Debug\net10.0-windows\winfrom1.Form1.resources
 C:\Users\ADVAN\source\repos\winfrom1\winfrom1\obj\Debug\net10.0-windows\winfrom1.FormNew.resources
@@ -27,3 +26,4 @@ C:\Users\ADVAN\source\repos\winfrom1\winfrom1\bin\Debug\net10.0-windows\Microsof
 C:\Users\ADVAN\source\repos\winfrom1\winfrom1\bin\Debug\net10.0-windows\Npgsql.dll
 C:\Users\ADVAN\source\repos\winfrom1\winfrom1\obj\Debug\net10.0-windows\winfrom1.csproj.AssemblyReference.cache
 C:\Users\ADVAN\source\repos\winfrom1\winfrom1\obj\Debug\net10.0-windows\winfrom1.csproj.Up2Date
+C:\Users\ADVAN\source\repos\winfrom1\winfrom1\obj\Debug\net10.0-windows\winfrom1.v_dashboard.resources

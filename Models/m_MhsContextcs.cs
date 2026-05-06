@@ -2,23 +2,23 @@
 
 namespace winfrom1.Models
 {
-    internal class MhsContextcs
+    internal class m_MhsContextcs
     {
         #region Properties
-        public List<Mhs> daftarMhs = new List<Mhs>();
+        public List<m_Mhs> daftarMhs = new List<m_Mhs>();
 
         #endregion
 
-        public bool Insert(Mhs mhs)
+        public bool Insert(m_Mhs mhs)
         {
             bool isSucces = false;
 
             //konfigurasi db=> use using supaya ga otomatis ke-close.
             string connectToDb =
             "Server=localhost;" +
-            "Port=5432" +
-            "Database=PBOdb" +
-            "Usernamae=Postgre" +
+            "Port=5432;" +
+            "Database=PBOdb;" +
+            "Username=postgres;" +
             "Password=postgre7";
 
             using (NpgsqlConnection conn = new NpgsqlConnection(connectToDb))

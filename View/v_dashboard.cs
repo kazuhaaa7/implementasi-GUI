@@ -1,10 +1,10 @@
 ﻿namespace winfrom1
 {
-    public partial class datagridcs : Form
+    public partial class v_dashboard : Form
     {
         //List<Mahasiswa> listMahasiswa = new List<Mahasiswa>();
-        Models.MhsContextcs mhsContex;
-        public datagridcs()
+        Models.m_MhsContextcs mhsContex;
+        public v_dashboard()
         {
             InitializeComponent();
             //Mahasiswa tegar = new Mahasiswa();
@@ -19,7 +19,7 @@
             //listMahasiswa.Add(tegar);//sv data
             //dataGridView1.DataSource = listMahasiswa;
 
-            mhsContex = new Models.MhsContextcs();// membuat instance dengan tipe data mhsContex
+            mhsContex = new Models.m_MhsContextcs();// membuat instance dengan tipe data mhsContex
 
 
 
@@ -46,7 +46,7 @@
                     //dataGridView1.DataSource = null;
                     //dataGridView1.DataSource = listMahasiswa;
 
-                    Models.Mhs newMahasigma = addData.GetMahasiswa();
+                    Models.m_Mhs newMahasigma = addData.GetMahasiswa();
                     //mhsContex.daftarMhs.Add(newMahasigma);
                     mhsContex.Insert(newMahasigma);
 

@@ -12,7 +12,8 @@ namespace winfrom1
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             //Application.Run(new Form1());
-            Application.Run(new datagridcs());
+            Application.Run(new v_dashboard());
+
 
             //Application.Run(new praktikPbo());
 

@@ -1,6 +1,6 @@
 ﻿namespace winfrom1
 {
-    partial class datagridcs
+    partial class v_dashboard
     {
         /// <summary>
         /// Required designer variable.

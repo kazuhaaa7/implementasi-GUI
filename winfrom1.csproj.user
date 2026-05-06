@@ -4,13 +4,13 @@
     <Compile Update="ViewPraktikPbo\FormDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\datagridcs.cs">
+    <Compile Update="View\v_dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\Form Entry Data.cs">
+    <Compile Update="View\v_EntryData.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="View\FormNew.cs">

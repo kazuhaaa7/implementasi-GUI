@@ -1,5 +1,4 @@
-﻿
-namespace winfrom1
+﻿namespace winfrom1
 {
     public partial class FormEntrData2 : Form
     {
@@ -66,14 +65,14 @@ namespace winfrom1
         //    return newMahasiswa;
 
         //}
-        public Models.Mhs GetMahasiswa()//implementasi 3 ppt
+        public Models.m_Mhs GetMahasiswa()//implementasi 3 ppt
         {
-            Models.Mhs newMahasiswa = new Models.Mhs();
+            Models.m_Mhs newMahasiswa = new Models.m_Mhs();
             newMahasiswa.nim = tbNim.Text;
             newMahasiswa.nama = tbNama.Text;
             newMahasiswa.alamat = tbAlamat.Text;
             newMahasiswa.tanggalLahir = DateOnly.Parse(dateTimePicker1.Value.ToShortDateString());
-            newMahasiswa.kdProdi = ((Prodi)cbProdi.SelectedItem).kodeProdi;
+            newMahasiswa.kdProdi = int.Parse(((Prodi)cbProdi.SelectedItem).kodeProdi);
             newMahasiswa.namaProdi = ((Prodi)cbProdi.SelectedItem).namaProdi;
             newMahasiswa.ukt = decimal.Parse(nudUKT.Text);
             newMahasiswa.isActive = cbisActive.Checked;
