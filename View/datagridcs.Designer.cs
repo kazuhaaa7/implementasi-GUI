@@ -41,15 +41,13 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(1792, 419);
             dataGridView1.TabIndex = 0;
-            btnTmbh.BackColor = Color.ForestGreen;
-            btnTmbh.FlatStyle = FlatStyle.Flat;
-            btnTmbh.ForeColor = Color.Wheat;
-            btnTmbh.TabIndex = 1;
-            btnTmbh.UseVisualStyleBackColor = false;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // btnTmbh
             // 
+            btnTmbh.BackColor = Color.ForestGreen;
+            btnTmbh.FlatStyle = FlatStyle.Flat;
+            btnTmbh.ForeColor = Color.Wheat;
             btnTmbh.Location = new Point(1174, 1);
             btnTmbh.Name = "btnTmbh";
             btnTmbh.Size = new Size(124, 29);
@@ -74,22 +72,20 @@
 
         #endregion
 
-        private DataGridView dataGridView1;
-
         //btntmbhdata
         private Button btnTmbh;
-        
+        public DataGridView dataGridView1;
     }
 
-    public class Mahasiswa
-    {
-        public string Nim { get; set; }
-        public string Nama { get; set; }
-        public string Alamat { get; set; }
-        public DateOnly TglLahir{ get; set;}
-        public string Dateonly { get; set; }
-        public string ProgramStudi { get; set; }
-        public decimal UKT { get; set; }
-        public Boolean isActive { get; set; }
-    }
+    //public class Mahasiswa
+    //{
+    //    public string Nim { get; set; }
+    //    public string Nama { get; set; }
+    //    public string Alamat { get; set; }
+    //    public DateOnly TglLahir{ get; set;}
+    //    public string Dateonly { get; set; }
+    //    public string ProgramStudi { get; set; }
+    //    public decimal UKT { get; set; }
+    //    public Boolean isActive { get; set; }
+    //}
 }

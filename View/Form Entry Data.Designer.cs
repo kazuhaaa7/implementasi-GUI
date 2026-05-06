@@ -237,13 +237,13 @@
         private void SetComboBoxProdi() //binding data
         {
             List<Prodi> listProdi = new List<Prodi>();
-            listProdi.Add(new Prodi() { KdProdi = "24101010", NamaProdi = "SISTEM INFORMASI" });
-            listProdi.Add(new Prodi() { KdProdi = "24101030", NamaProdi = "INFORMATIKA" });
-            listProdi.Add(new Prodi() { KdProdi = "24101020", NamaProdi = "TEKNOLOGI INFORMASI" });
+            listProdi.Add(new Prodi() { kodeProdi = "24101010", namaProdi = "SISTEM INFORMASI" });
+            listProdi.Add(new Prodi() { kodeProdi = "24101030", namaProdi = "INFORMATIKA" });
+            listProdi.Add(new Prodi() { kodeProdi = "24101020", namaProdi = "TEKNOLOGI INFORMASI" });
 
             cbProdi.DataSource = listProdi;
-            cbProdi.ValueMember = "KdProdi";
-            cbProdi.DisplayMember = "NamaProdi";
+            cbProdi.ValueMember = "kodeProdi";
+            cbProdi.DisplayMember = "namaProdi";
         }
 
         #endregion
@@ -269,8 +269,8 @@
 
         public class Prodi
         {
-            public string KdProdi { get; set; }
-            public string NamaProdi { get; set; }
+            public string kodeProdi { get; set; }
+            public string namaProdi { get; set; }
         }
     }
 }

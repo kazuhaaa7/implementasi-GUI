@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "VI0rUdWBkLk=",
+  "dgSpecHash": "WNV6wUNtwKQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\ADVAN\\source\\repos\\winfrom1\\winfrom1\\winfrom1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ADVAN\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\ADVAN\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\ADVAN\\.nuget\\packages\\npgsql\\10.0.2\\npgsql.10.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

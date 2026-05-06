@@ -1,4 +1,5 @@
-﻿namespace winfrom1
+﻿
+namespace winfrom1
 {
     public partial class FormEntrData2 : Form
     {
@@ -50,15 +51,31 @@
             this.DialogResult = DialogResult.Cancel;
         }
 
-        public Mahasiswa GetMahasiswa()
+        //public Mahasiswa GetMahasiswa()//implementasi 3
+        //{
+        //    Mahasiswa newMahasiswa = new Mahasiswa();
+        //    newMahasiswa.Nim = tbNim.Text;
+        //    newMahasiswa.Nama = tbNama.Text;
+        //    newMahasiswa.Alamat = tbAlamat.Text;
+        //    newMahasiswa.TglLahir = DateOnly.Parse(dateTimePicker1.Value.ToShortDateString());
+        //    newMahasiswa.ProgramStudi = ((Prodi)cbProdi.SelectedItem).KdProdi;
+        //    newMahasiswa.UKT = decimal.Parse(nudUKT.Text);
+        //    newMahasiswa.isActive = cbisActive.Checked;
+
+
+        //    return newMahasiswa;
+
+        //}
+        public Models.Mhs GetMahasiswa()//implementasi 3 ppt
         {
-            Mahasiswa newMahasiswa = new Mahasiswa();
-            newMahasiswa.Nim = tbNim.Text;
-            newMahasiswa.Nama = tbNama.Text;
-            newMahasiswa.Alamat = tbAlamat.Text;
-            newMahasiswa.TglLahir = DateOnly.Parse(dateTimePicker1.Value.ToShortDateString());
-            newMahasiswa.ProgramStudi = ((Prodi)cbProdi.SelectedItem).KdProdi;
-            newMahasiswa.UKT = decimal.Parse(nudUKT.Text);
+            Models.Mhs newMahasiswa = new Models.Mhs();
+            newMahasiswa.nim = tbNim.Text;
+            newMahasiswa.nama = tbNama.Text;
+            newMahasiswa.alamat = tbAlamat.Text;
+            newMahasiswa.tanggalLahir = DateOnly.Parse(dateTimePicker1.Value.ToShortDateString());
+            newMahasiswa.kdProdi = ((Prodi)cbProdi.SelectedItem).kodeProdi;
+            newMahasiswa.namaProdi = ((Prodi)cbProdi.SelectedItem).namaProdi;
+            newMahasiswa.ukt = decimal.Parse(nudUKT.Text);
             newMahasiswa.isActive = cbisActive.Checked;
 
 

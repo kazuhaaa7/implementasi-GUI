@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("winfrom1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+277e4d02062139d43ec8a594ab9631ea8c0024e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2011aed5c20a5c1c9fb3946c188191a8e95e4cde")]
 [assembly: System.Reflection.AssemblyProductAttribute("winfrom1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("winfrom1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
